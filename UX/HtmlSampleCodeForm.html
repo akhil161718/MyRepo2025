@@ -1,0 +1,75 @@
+!DOCTYPE HTML>
+<html>
+<head><title>Registration Form</title></head>
+<body>
+<h1>Registration Form</h1>
+<form>
+<label for ="full name">Full Name</label><br>
+<input type="text" id="name" required minlength="10" placeholder="Enter your Full name"><br><br>
+ 
+        <label for="pwd">Password</label><br>
+<input type="password" id="pwd" required minlength="12" placeholder="Enter your Password"><br><br>
+ 
+		<label for="email">Email Adress</label><br>
+<input type="email" id="email" placeholder="Enter Email Adress"><br><br>
+ 
+		<label for="phone number">Phone Number</label><br>
+<input type="tel" id="number" required pattern="[0-9]{10}" placeholder="Enter your Phone Number (10 digits)"><br><br>
+ 
+		<label for="website">Personal Website</label><br>
+<input type="url" id="website" placeholder="https://example.com" required><br><br>
+ 
+        <label for="age">Age</label><br>
+<input type="number" id="age" min="0" max="60" required placeholder="Enter your age"><br><br>
+ 
+        <label for="dob">Date of Birth</label><br>
+<input type="date" id="dob" required><br><br>
+ 
+        <label for="contact time">Preffered Contact Time</label><br>
+<input type="time" id="contact time" required><br><br>
+ 
+        <label for="subscribe">Subscribe to our newsletter</label><br>
+<input type="checkbox" id="subscribe"><br><br>
+ 
+        <label for="Gender">Gender Selection</label><br>
+<input type="radio" id="gender"required>
+<label for="male">Male</label>
+<input type="radio" id="gender">
+<label for="female">Female</label>
+<input type="radio" id="other">
+<label for="other">Other</label><br><br>
+ 
+        <label for="Profile Picture">Upload your Profile Picture</label><br>
+<input type="file" id="profile-picture"><br><br>
+ 
+        <label for="satisfaction">Satisfaction Level (1-10)</label><br>
+<input type="range" id="satisfaction" min="1" max="10"><br><br>
+ 
+        <label for="color">Favorite Color</label><br>
+<input type="color" id="color"><br><br>
+ 
+        <label for="username search">Search Your Username</label><br>
+<input type="search" id="username search" placeholder="Search your username"><br><br>
+ 
+        <label for="country">Country of Residence</label><br>
+<select id="country" name="country" required>
+<option>Select your country</option><br>
+<option value="India">United States</option>
+<option value="USA">Canada</option>
+<option value="UK">United Kingdom</option>
+<option value="Australia">Australia</option>
+<option value="Canada">India</option>
+</select><br><br>
+ 
+        <label for="about yourself">About Yourself</label><br>
+<textarea id="about yourself" name="about-yourself" rows="5" cols="60" maxlength="300" placeholder="Tell us about yourself"></textarea><br><br>
+ 
+        <label for="finalise button">Finalize the form submission</label><br>
+<button type="submit">Submit</button><br><br>
+ 
+        <label for="Reset">To clear all inputs</label><br>
+<button type="reset">Reset</button><br><br>
+</form>
+ 
+</body>
+</html>
